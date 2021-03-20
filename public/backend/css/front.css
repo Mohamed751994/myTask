@@ -1,0 +1,118 @@
+  header
+  {
+    background: #ffffff;
+    padding: 22px;
+    box-shadow: 0 0 10px #dadada;
+  }
+  .sidebar-area .widget {
+      margin-bottom: 30px;
+  }
+  .sidebar-area .widget .widget-title, .title {
+      font-weight: 500;
+      font-size: 20px;
+      padding-bottom: 12px;
+      position: relative;
+      color: #3f51b5;
+      border-bottom: 1px solid #eee;
+  }
+  .sidebar-area .widget.widget_post_categories ul {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+  }
+  .sidebar-area .widget.widget_post_categories ul li {
+      color: #000;
+      position: relative;
+      font-size: 13px;
+      width: 100%;
+      display: block;
+      padding: 10px 20px 10px 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+  }
+  .courses_filter input[type="checkbox"] {
+    margin-right: 6px;
+    margin-top: -2px;
+    width: 17px;
+    height: 21px;
+    outline: none;
+    text-align: center;
+    border: 1px solid #b5b5b5;
+    background: transparent;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+.courses_filter input[type="checkbox"]:checked::before {
+    content: "\2714";
+    background-color: #3f51b5;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    transition: all 0.5s;
+}
+.courses_filter input[type="checkbox"]::before {
+    color: #fff;
+    font-size: 20px;
+    top: -3px;
+    line-height: 1;
+    height: 12px;
+    position: absolute;
+    z-index: 1;
+    left: 1px;
+}
+.stars
+{
+  color: orange;
+}
+.card
+{
+  width: 100%;
+  position: relative;
+  box-shadow: 0 0 10px #e1e1e1;
+}
+.card .image
+{
+  background: #f3f3f3;
+  height: 160px;
+}
+.card-body h5 a
+{
+  color: #3f51b5;
+  font-size: 18px;
+}
+.card-body  p,.card-body  .views
+{
+    font-size: 13px;
+    color: #909090;
+}
+.card .category
+{
+    background: #3f51b5;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 5px 18px;
+    font-size: 13px;
+    border-radius:3px;
+    color: #fff;
+}
+.gif
+{
+  width: 15%;
+  display: none;
+}
+
+footer
+{
+  padding: 20px;
+  text-align: center;
+  background: #3f51b5;
+  color: #fff;
+  font-size: 13px;
+}
+ 
